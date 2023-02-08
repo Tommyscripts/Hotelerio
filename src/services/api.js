@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-  baseURL: 'https://hotelerio-backend-api.onrender.com/api'
+  baseURL: 'https://hotelerio-backend.onrender.com'
 })
 
 async function signup(newUser) {
